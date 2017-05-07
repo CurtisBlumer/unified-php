@@ -15,7 +15,7 @@
         "apcu-autoloader": true
     },
     "scripts": {
-        "lint": "php.exe -l"
+        "lint": "@php -l"
     },
     "require": {
         "php": "^7.0"
