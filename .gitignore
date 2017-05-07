@@ -1,0 +1,11 @@
+# Ignore the downloaded binaries directory.
+./bin
+
+# Ignore all downloaded Composer packages.
+./vendor
+
+# Ignore all downloaded Bower components.
+./bower_components
+
+# Ignore all downloaded Node modules.
+./node_modules

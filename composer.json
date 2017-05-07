@@ -1,0 +1,39 @@
+{
+    "name": "curtapedia/unified-php",
+    "description": "Text processing umbrella: Parse, transform, and compile. PHP implimentation of UnifiedJS",
+    "type": "library",
+    "license": "MIT or GPL-2.0+",
+    "authors": [
+        {
+            "name": "Curtis Blumer",
+            "email": "curtis.blumer@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin",
+        "optimize-autoloader": true,
+        "apcu-autoloader": true
+    },
+    "scripts": {
+        "lint": "php.exe -l"
+    },
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Unified\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\Unified\\": "spec",
+            "Unified\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
